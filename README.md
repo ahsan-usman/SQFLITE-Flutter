@@ -1,6 +1,7 @@
 # newone
 
-A new Flutter project.
+Add, Delete, Update, Delete All functionaly added in Flutter App using Sqflite Database
+
 
 ## Getting Started
 
