@@ -321,7 +321,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                     size: 30,
                                   ),
                                   title: Text("${snapshot.data![index].roll_no}",style: TextStyle(fontSize: 22 ,color: Colors.white),),
-                                  subtitle: Text("${snapshot.data![index].name}", style: TextStyle(fontSize: 18, color: Colors.white),)
+                                  subtitle: Text("${snapshot.data![index].name}", style: TextStyle(fontSize: 18, color: Colors.white),),
+                                  trailing: Text("${snapshot.data![index].id}", style: TextStyle(fontSize: 18, color: Colors.white),),
                                 ),
                               );
 
